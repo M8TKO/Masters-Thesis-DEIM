@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Generated numerical data
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.xdmf
+*.bp
+*.pvd
+*.vtu
+*.pvtu
+
+# Generated figures and local output directories
+/experiments/deim-1d/plots/
+/experiments/deim-qdeim-2d/plots/
+/experiments/svd-qr/*.png
+/experiments/fitzhugh-nagumo/results/
+/experiments/fitzhugh-nagumo/figures/
+/experiments/rc-ladder/results/
+/experiments/navier-stokes/solver/dataset_*/
+/experiments/navier-stokes/reconstruction/external_fields/
+/experiments/navier-stokes/reconstruction/paraview/
+
+# Editors and operating systems
+.DS_Store
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*~

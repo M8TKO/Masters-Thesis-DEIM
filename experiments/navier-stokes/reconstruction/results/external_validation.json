@@ -1,0 +1,554 @@
+{
+  "aligned_validation_matrix_shape": [
+    11994,
+    400
+  ],
+  "dataset_root": "dataset_u_max_sweep_dense",
+  "experiment": "external_unseen_parameter_validation",
+  "external_parameter_not_in_training_grid": true,
+  "external_u": 0.855,
+  "mesh_alignment": {
+    "max_nearest_fallback_distance": 4.441027621704298e-16,
+    "method": "linear_interpolation_with_nearest_neighbour_fallback",
+    "nearest_fallback_target_points": 9,
+    "source_dofs": 11995,
+    "target_dofs": 11994
+  },
+  "methods": {
+    "DEIM": {
+      "condition_2": 42.95508480220198,
+      "distinct_indices": 150,
+      "inverse_norm_2": 103.92527615000819,
+      "m": 150,
+      "max_abs_interpolation_residual": 2.6290081223123707e-13,
+      "max_snapshot_relative_error": 0.2808667188986367,
+      "mean_snapshot_relative_error": 0.029797438152081544,
+      "median_snapshot_relative_error": 0.026825051708250884,
+      "min_snapshot_relative_error": 0.022468070802764497,
+      "nonsingular": true,
+      "num_sensors": 150,
+      "p95_snapshot_relative_error": 0.0325440723444362,
+      "reconstruction_time_seconds": 0.013656291994266212,
+      "relative_frobenius_error": 0.027468343765758237,
+      "relative_interpolation_residual": 2.717142181736486e-16,
+      "sensor_selection_time_seconds": 0.03015712500200607
+    },
+    "QDEIM": {
+      "condition_2": 32.374721926353295,
+      "distinct_indices": 150,
+      "inverse_norm_2": 84.66427759065719,
+      "m": 150,
+      "max_abs_interpolation_residual": 2.149391775674303e-13,
+      "max_snapshot_relative_error": 0.19076761217719418,
+      "mean_snapshot_relative_error": 0.028302101795481916,
+      "median_snapshot_relative_error": 0.027701212984178374,
+      "min_snapshot_relative_error": 0.02036417034893048,
+      "nonsingular": true,
+      "num_sensors": 150,
+      "p95_snapshot_relative_error": 0.029272829405221832,
+      "reconstruction_time_seconds": 0.01384458297980018,
+      "relative_frobenius_error": 0.02752264407751734,
+      "relative_interpolation_residual": 2.5663543130915436e-16,
+      "sensor_selection_time_seconds": 0.054578374983975664
+    }
+  },
+  "original_validation_matrix_shape": [
+    11995,
+    400
+  ],
+  "paraview_reference_h5": "dataset_u_max_sweep_dense/u_max_0_700/wake_u_max_0_700.h5",
+  "pod_orthonormality_2_norm": 9.624141809418221e-15,
+  "random_seed": 1234,
+  "randomized_pod_seconds": 2.3983220839872956,
+  "roundtrip_interpolation_control": {
+    "max_snapshot_relative_error": 0.03510230742230787,
+    "mean_snapshot_relative_error": 0.005896369911160466,
+    "p95_snapshot_relative_error": 0.01528667165980266,
+    "reference_shape": [
+      11994,
+      400
+    ],
+    "reference_to_validation": {
+      "max_nearest_fallback_distance": 4.518280359883027e-16,
+      "method": "linear_interpolation_with_nearest_neighbour_fallback",
+      "nearest_fallback_target_points": 26,
+      "source_dofs": 11994,
+      "target_dofs": 11995
+    },
+    "reference_u": 0.7,
+    "relative_frobenius_error": 0.004649248241071016,
+    "validation_grid_shape": [
+      11995,
+      400
+    ],
+    "validation_to_reference": {
+      "max_nearest_fallback_distance": 4.441027621704298e-16,
+      "method": "linear_interpolation_with_nearest_neighbour_fallback",
+      "nearest_fallback_target_points": 9,
+      "source_dofs": 11995,
+      "target_dofs": 11994
+    }
+  },
+  "same_basis_and_mean_for_deim_and_qdeim": true,
+  "selected_m": 150,
+  "training_matrix_shape": [
+    11994,
+    12400
+  ],
+  "training_metadata": {
+    "base_parameters": {
+      "convection": "picard",
+      "dt": 0.01,
+      "kick_period": 0.6,
+      "kick_strength": 0.04,
+      "kick_until": 6.0,
+      "max_retries": 6,
+      "min_dt": 0.0025,
+      "n_bulk": 56,
+      "n_circle": 112,
+      "newton_atol": 1e-08,
+      "newton_max_it": 50,
+      "newton_rtol": 1e-08,
+      "nu": 0.001,
+      "perturbation": 0.01,
+      "ramp_time": 4.0,
+      "relaxation": 1.0,
+      "save_every": 2,
+      "t_end": 8.0,
+      "theta": 0.5,
+      "wake_refinement": 0.25
+    },
+    "description": "DFG cylinder wake vorticity matrices for a uniform u_max sweep.",
+    "field": "vorticity",
+    "field_element_degree": 1,
+    "field_element_family": "Lagrange",
+    "matrix_orientation": "columns_are_time_snapshots",
+    "mesh_file": "mesh.xdmf",
+    "mesh_h5_file": "mesh.h5",
+    "runs": [
+      {
+        "directory": "u_max_0_700",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.7
+      },
+      {
+        "directory": "u_max_0_710",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.71
+      },
+      {
+        "directory": "u_max_0_720",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.72
+      },
+      {
+        "directory": "u_max_0_730",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.73
+      },
+      {
+        "directory": "u_max_0_740",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.74
+      },
+      {
+        "directory": "u_max_0_750",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.75
+      },
+      {
+        "directory": "u_max_0_760",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.76
+      },
+      {
+        "directory": "u_max_0_770",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.77
+      },
+      {
+        "directory": "u_max_0_780",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.78
+      },
+      {
+        "directory": "u_max_0_790",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.79
+      },
+      {
+        "directory": "u_max_0_800",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.7999999999999999
+      },
+      {
+        "directory": "u_max_0_810",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.8099999999999999
+      },
+      {
+        "directory": "u_max_0_820",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.82
+      },
+      {
+        "directory": "u_max_0_830",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.83
+      },
+      {
+        "directory": "u_max_0_840",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.84
+      },
+      {
+        "directory": "u_max_0_850",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.85
+      },
+      {
+        "directory": "u_max_0_860",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.86
+      },
+      {
+        "directory": "u_max_0_870",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.87
+      },
+      {
+        "directory": "u_max_0_880",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.88
+      },
+      {
+        "directory": "u_max_0_890",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.89
+      },
+      {
+        "directory": "u_max_0_900",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.9
+      },
+      {
+        "directory": "u_max_0_910",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.91
+      },
+      {
+        "directory": "u_max_0_920",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.9199999999999999
+      },
+      {
+        "directory": "u_max_0_930",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.9299999999999999
+      },
+      {
+        "directory": "u_max_0_940",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.94
+      },
+      {
+        "directory": "u_max_0_950",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.95
+      },
+      {
+        "directory": "u_max_0_960",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.96
+      },
+      {
+        "directory": "u_max_0_970",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.97
+      },
+      {
+        "directory": "u_max_0_980",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.98
+      },
+      {
+        "directory": "u_max_0_990",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.99
+      },
+      {
+        "directory": "u_max_1_000",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 1.0
+      }
+    ],
+    "u_values": [
+      0.7,
+      0.71,
+      0.72,
+      0.73,
+      0.74,
+      0.75,
+      0.76,
+      0.77,
+      0.78,
+      0.79,
+      0.7999999999999999,
+      0.8099999999999999,
+      0.82,
+      0.83,
+      0.84,
+      0.85,
+      0.86,
+      0.87,
+      0.88,
+      0.89,
+      0.9,
+      0.91,
+      0.9199999999999999,
+      0.9299999999999999,
+      0.94,
+      0.95,
+      0.96,
+      0.97,
+      0.98,
+      0.99,
+      1.0
+    ]
+  },
+  "training_u_values": [
+    0.7,
+    0.71,
+    0.72,
+    0.73,
+    0.74,
+    0.75,
+    0.76,
+    0.77,
+    0.78,
+    0.79,
+    0.7999999999999999,
+    0.8099999999999999,
+    0.82,
+    0.83,
+    0.84,
+    0.85,
+    0.86,
+    0.87,
+    0.88,
+    0.89,
+    0.9,
+    0.91,
+    0.9199999999999999,
+    0.9299999999999999,
+    0.94,
+    0.95,
+    0.96,
+    0.97,
+    0.98,
+    0.99,
+    1.0
+  ],
+  "validation_metadata": {
+    "base_parameters": {
+      "convection": "picard",
+      "dt": 0.01,
+      "kick_period": 0.6,
+      "kick_strength": 0.04,
+      "kick_until": 6.0,
+      "max_retries": 6,
+      "min_dt": 0.0025,
+      "n_bulk": 56,
+      "n_circle": 112,
+      "newton_atol": 1e-08,
+      "newton_max_it": 50,
+      "newton_rtol": 1e-08,
+      "nu": 0.001,
+      "perturbation": 0.01,
+      "ramp_time": 4.0,
+      "relaxation": 1.0,
+      "save_every": 2,
+      "t_end": 8.0,
+      "theta": 0.5,
+      "wake_refinement": 0.25
+    },
+    "description": "DFG cylinder wake vorticity matrices for a uniform u_max sweep.",
+    "field": "vorticity",
+    "field_element_degree": 1,
+    "field_element_family": "Lagrange",
+    "matrix_orientation": "columns_are_time_snapshots",
+    "mesh_file": "mesh.xdmf",
+    "mesh_h5_file": "mesh.h5",
+    "runs": [
+      {
+        "directory": "u_max_0_855",
+        "matrix_shape": [
+          11995,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.855
+      }
+    ],
+    "u_values": [
+      0.855
+    ]
+  },
+  "validation_root": "validation_u_max_0_855"
+}

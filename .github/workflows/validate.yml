@@ -1,0 +1,23 @@
+name: Validate repository
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile Python sources
+        run: python -m compileall -q experiments
+      - name: Check published artifacts
+        run: |
+          test -f thesis/Matko-Petricic-Masters-Thesis.pdf
+          test -f presentation/DEIM-presentation.pdf
+          test -f docs/index.html
+          test -f docs/slides/slide-0001.png
+          test -f docs/media/navier_stokes_threeway_comparison.mp4

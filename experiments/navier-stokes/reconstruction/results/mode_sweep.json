@@ -1,0 +1,1091 @@
+{
+  "dataset_metadata": {
+    "base_parameters": {
+      "convection": "picard",
+      "dt": 0.01,
+      "kick_period": 0.6,
+      "kick_strength": 0.04,
+      "kick_until": 6.0,
+      "max_retries": 6,
+      "min_dt": 0.0025,
+      "n_bulk": 56,
+      "n_circle": 112,
+      "newton_atol": 1e-08,
+      "newton_max_it": 50,
+      "newton_rtol": 1e-08,
+      "nu": 0.001,
+      "perturbation": 0.01,
+      "ramp_time": 4.0,
+      "relaxation": 1.0,
+      "save_every": 2,
+      "t_end": 8.0,
+      "theta": 0.5,
+      "wake_refinement": 0.25
+    },
+    "description": "DFG cylinder wake vorticity matrices for a uniform u_max sweep.",
+    "field": "vorticity",
+    "field_element_degree": 1,
+    "field_element_family": "Lagrange",
+    "matrix_orientation": "columns_are_time_snapshots",
+    "mesh_file": "mesh.xdmf",
+    "mesh_h5_file": "mesh.h5",
+    "runs": [
+      {
+        "directory": "u_max_0_700",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.7
+      },
+      {
+        "directory": "u_max_0_710",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.71
+      },
+      {
+        "directory": "u_max_0_720",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.72
+      },
+      {
+        "directory": "u_max_0_730",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.73
+      },
+      {
+        "directory": "u_max_0_740",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.74
+      },
+      {
+        "directory": "u_max_0_750",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.75
+      },
+      {
+        "directory": "u_max_0_760",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.76
+      },
+      {
+        "directory": "u_max_0_770",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.77
+      },
+      {
+        "directory": "u_max_0_780",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.78
+      },
+      {
+        "directory": "u_max_0_790",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.79
+      },
+      {
+        "directory": "u_max_0_800",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.7999999999999999
+      },
+      {
+        "directory": "u_max_0_810",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.8099999999999999
+      },
+      {
+        "directory": "u_max_0_820",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.82
+      },
+      {
+        "directory": "u_max_0_830",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.83
+      },
+      {
+        "directory": "u_max_0_840",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.84
+      },
+      {
+        "directory": "u_max_0_850",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.85
+      },
+      {
+        "directory": "u_max_0_860",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.86
+      },
+      {
+        "directory": "u_max_0_870",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.87
+      },
+      {
+        "directory": "u_max_0_880",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.88
+      },
+      {
+        "directory": "u_max_0_890",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.89
+      },
+      {
+        "directory": "u_max_0_900",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.9
+      },
+      {
+        "directory": "u_max_0_910",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.91
+      },
+      {
+        "directory": "u_max_0_920",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.9199999999999999
+      },
+      {
+        "directory": "u_max_0_930",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.9299999999999999
+      },
+      {
+        "directory": "u_max_0_940",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.94
+      },
+      {
+        "directory": "u_max_0_950",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.95
+      },
+      {
+        "directory": "u_max_0_960",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.96
+      },
+      {
+        "directory": "u_max_0_970",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.97
+      },
+      {
+        "directory": "u_max_0_980",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.98
+      },
+      {
+        "directory": "u_max_0_990",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 0.99
+      },
+      {
+        "directory": "u_max_1_000",
+        "matrix_shape": [
+          11994,
+          400
+        ],
+        "time_end": 7.999999999999874,
+        "time_start": 0.02,
+        "u_max": 1.0
+      }
+    ],
+    "u_values": [
+      0.7,
+      0.71,
+      0.72,
+      0.73,
+      0.74,
+      0.75,
+      0.76,
+      0.77,
+      0.78,
+      0.79,
+      0.7999999999999999,
+      0.8099999999999999,
+      0.82,
+      0.83,
+      0.84,
+      0.85,
+      0.86,
+      0.87,
+      0.88,
+      0.89,
+      0.9,
+      0.91,
+      0.9199999999999999,
+      0.9299999999999999,
+      0.94,
+      0.95,
+      0.96,
+      0.97,
+      0.98,
+      0.99,
+      1.0
+    ]
+  },
+  "dataset_root": "dataset_u_max_sweep_dense",
+  "experiment": "leave_one_parameter_out",
+  "holdout_matrix_shape": [
+    11994,
+    400
+  ],
+  "holdout_u": 0.85,
+  "mass_l2_error": {
+    "computed": false,
+    "reason": "The stored NumPy vorticity arrays are used as the primary DEIM state space. Reconstructing a matching finite-element mass matrix from these saved arrays was not used for the authoritative metrics."
+  },
+  "modes": [
+    20,
+    30,
+    40,
+    60,
+    80,
+    100,
+    120,
+    150,
+    200
+  ],
+  "modes_detail": {
+    "100": {
+      "m": 100,
+      "methods": {
+        "DEIM": {
+          "condition_2": 44.169840066843605,
+          "distinct_indices": 100,
+          "experiment": "leave_one_out",
+          "inverse_norm_2": 127.09095818462579,
+          "m": 100,
+          "mass_l2_relative_error": "",
+          "max_abs_interpolation_residual": 2.913225216616411e-13,
+          "max_snapshot_relative_error": 0.2990567052235308,
+          "mean_snapshot_relative_error": 0.006899992932009803,
+          "median_snapshot_relative_error": 0.003900240758937272,
+          "method": "DEIM",
+          "min_snapshot_relative_error": 0.0015186029150656383,
+          "nonsingular": true,
+          "num_sensors": 100,
+          "p95_snapshot_relative_error": 0.015321387523221203,
+          "pod_orthonormality_2_norm": 1.1323388642973977e-14,
+          "reconstruction_time_seconds": 0.020287416991777718,
+          "relative_frobenius_error": 0.005226437287619509,
+          "relative_interpolation_residual": 2.262454582253117e-16,
+          "sensor_selection_time_seconds": 0.019475999986752868
+        },
+        "POD_projection": {
+          "condition_2": "",
+          "distinct_indices": "",
+          "experiment": "leave_one_out",
+          "inverse_norm_2": "",
+          "m": 100,
+          "mass_l2_relative_error": "",
+          "max_abs_interpolation_residual": "",
+          "max_snapshot_relative_error": 0.10992236750614114,
+          "mean_snapshot_relative_error": 0.002234580072684528,
+          "median_snapshot_relative_error": 0.0013021779830900675,
+          "method": "POD_projection",
+          "min_snapshot_relative_error": 0.0007467717508565367,
+          "nonsingular": "",
+          "num_sensors": "",
+          "p95_snapshot_relative_error": 0.0047861664202297205,
+          "pod_orthonormality_2_norm": 1.1323388642973977e-14,
+          "reconstruction_time_seconds": 0.028324625018285587,
+          "relative_frobenius_error": 0.0013670799148138028,
+          "relative_interpolation_residual": "",
+          "sensor_selection_time_seconds": 0.0
+        },
+        "QDEIM": {
+          "condition_2": 21.04204287942628,
+          "distinct_indices": 100,
+          "experiment": "leave_one_out",
+          "inverse_norm_2": 63.33243933732949,
+          "m": 100,
+          "mass_l2_relative_error": "",
+          "max_abs_interpolation_residual": 1.6697754290362354e-13,
+          "max_snapshot_relative_error": 0.2926333180050333,
+          "mean_snapshot_relative_error": 0.006009975612184661,
+          "median_snapshot_relative_error": 0.002935937762285252,
+          "method": "QDEIM",
+          "min_snapshot_relative_error": 0.0014607020747950184,
+          "nonsingular": true,
+          "num_sensors": 100,
+          "p95_snapshot_relative_error": 0.01781842769402864,
+          "pod_orthonormality_2_norm": 1.1323388642973977e-14,
+          "reconstruction_time_seconds": 0.012572084000566974,
+          "relative_frobenius_error": 0.003642823616959636,
+          "relative_interpolation_residual": 2.017069658049744e-16,
+          "sensor_selection_time_seconds": 0.043903709010919556
+        }
+      },
+      "pod_orthonormality_2_norm": 1.1323388642973977e-14
+    },
+    "120": {
+      "m": 120,
+      "methods": {
+        "DEIM": {
+          "condition_2": 39.567242537101436,
+          "distinct_indices": 120,
+          "experiment": "leave_one_out",
+          "inverse_norm_2": 102.72534863685456,
+          "m": 120,
+          "mass_l2_relative_error": "",
+          "max_abs_interpolation_residual": 2.398081733190338e-13,
+          "max_snapshot_relative_error": 0.18289723208326375,
+          "mean_snapshot_relative_error": 0.004831396483874793,
+          "median_snapshot_relative_error": 0.0030681011632137014,
+          "method": "DEIM",
+          "min_snapshot_relative_error": 0.0012492909885088318,
+          "nonsingular": true,
+          "num_sensors": 120,
+          "p95_snapshot_relative_error": 0.009751413941286107,
+          "pod_orthonormality_2_norm": 1.1935469095238544e-14,
+          "reconstruction_time_seconds": 0.012685166002484038,
+          "relative_frobenius_error": 0.004103590460598279,
+          "relative_interpolation_residual": 2.5125262687309185e-16,
+          "sensor_selection_time_seconds": 0.02837345897569321
+        },
+        "POD_projection": {
+          "condition_2": "",
+          "distinct_indices": "",
+          "experiment": "leave_one_out",
+          "inverse_norm_2": "",
+          "m": 120,
+          "mass_l2_relative_error": "",
+          "max_abs_interpolation_residual": "",
+          "max_snapshot_relative_error": 0.071917610382793,
+          "mean_snapshot_relative_error": 0.001511582191641628,
+          "median_snapshot_relative_error": 0.0008636885307151052,
+          "method": "POD_projection",
+          "min_snapshot_relative_error": 0.0005708717206074819,
+          "nonsingular": "",
+          "num_sensors": "",
+          "p95_snapshot_relative_error": 0.0028072740959372284,
+          "pod_orthonormality_2_norm": 1.1935469095238544e-14,
+          "reconstruction_time_seconds": 0.03507954202359542,
+          "relative_frobenius_error": 0.0010007294113812642,
+          "relative_interpolation_residual": "",
+          "sensor_selection_time_seconds": 0.0
+        },
+        "QDEIM": {
+          "condition_2": 21.80968311122751,
+          "distinct_indices": 120,
+          "experiment": "leave_one_out",
+          "inverse_norm_2": 59.648372188826265,
+          "m": 120,
+          "mass_l2_relative_error": "",
+          "max_abs_interpolation_residual": 2.717825964282383e-13,
+          "max_snapshot_relative_error": 0.1534557858871811,
+          "mean_snapshot_relative_error": 0.0035774949685942253,
+          "median_snapshot_relative_error": 0.0020772376166207354,
+          "method": "QDEIM",
+          "min_snapshot_relative_error": 0.001158167915629095,
+          "nonsingular": true,
+          "num_sensors": 120,
+          "p95_snapshot_relative_error": 0.007423019546366452,
+          "pod_orthonormality_2_norm": 1.1935469095238544e-14,
+          "reconstruction_time_seconds": 0.012635833001695573,
+          "relative_frobenius_error": 0.002534697198411628,
+          "relative_interpolation_residual": 2.319676011181568e-16,
+          "sensor_selection_time_seconds": 0.03935191698838025
+        }
+      },
+      "pod_orthonormality_2_norm": 1.1935469095238544e-14
+    },
+    "150": {
+      "m": 150,
+      "methods": {
+        "DEIM": {
+          "condition_2": 46.04576711104691,
+          "distinct_indices": 150,
+          "experiment": "leave_one_out",
+          "inverse_norm_2": 111.87311778824792,
+          "m": 150,
+          "mass_l2_relative_error": "",
+          "max_abs_interpolation_residual": 2.682298827494378e-13,
+          "max_snapshot_relative_error": 0.1338621056516664,
+          "mean_snapshot_relative_error": 0.0029846177342087634,
+          "median_snapshot_relative_error": 0.0017855547096153395,
+          "method": "DEIM",
+          "min_snapshot_relative_error": 0.0007523946452927374,
+          "nonsingular": true,
+          "num_sensors": 150,
+          "p95_snapshot_relative_error": 0.006407863877312892,
+          "pod_orthonormality_2_norm": 1.2258482847241822e-14,
+          "reconstruction_time_seconds": 0.014652417012257501,
+          "relative_frobenius_error": 0.0028550707096921916,
+          "relative_interpolation_residual": 2.752745073378976e-16,
+          "sensor_selection_time_seconds": 0.03829362499527633
+        },
+        "POD_projection": {
+          "condition_2": "",
+          "distinct_indices": "",
+          "experiment": "leave_one_out",
+          "inverse_norm_2": "",
+          "m": 150,
+          "mass_l2_relative_error": "",
+          "max_abs_interpolation_residual": "",
+          "max_snapshot_relative_error": 0.0554181095607544,
+          "mean_snapshot_relative_error": 0.0009488874061193195,
+          "median_snapshot_relative_error": 0.00056426624715858,
+          "method": "POD_projection",
+          "min_snapshot_relative_error": 0.0003007398082384063,
+          "nonsingular": "",
+          "num_sensors": "",
+          "p95_snapshot_relative_error": 0.001535985548287852,
+          "pod_orthonormality_2_norm": 1.2258482847241822e-14,
+          "reconstruction_time_seconds": 0.03696033300366253,
+          "relative_frobenius_error": 0.0006603417810937874,
+          "relative_interpolation_residual": "",
+          "sensor_selection_time_seconds": 0.0
+        },
+        "QDEIM": {
+          "condition_2": 33.82109125670587,
+          "distinct_indices": 150,
+          "experiment": "leave_one_out",
+          "inverse_norm_2": 85.17508408151161,
+          "m": 150,
+          "mass_l2_relative_error": "",
+          "max_abs_interpolation_residual": 2.3447910280083306e-13,
+          "max_snapshot_relative_error": 0.15558816254888924,
+          "mean_snapshot_relative_error": 0.002816373240964145,
+          "median_snapshot_relative_error": 0.0016269296796521094,
+          "method": "QDEIM",
+          "min_snapshot_relative_error": 0.0005866236787467744,
+          "nonsingular": true,
+          "num_sensors": 150,
+          "p95_snapshot_relative_error": 0.005214215605699877,
+          "pod_orthonormality_2_norm": 1.2258482847241822e-14,
+          "reconstruction_time_seconds": 0.014002750016516075,
+          "relative_frobenius_error": 0.0022198442061028573,
+          "relative_interpolation_residual": 2.550350306627814e-16,
+          "sensor_selection_time_seconds": 0.055197790992679074
+        }
+      },
+      "pod_orthonormality_2_norm": 1.2258482847241822e-14
+    },
+    "20": {
+      "m": 20,
+      "methods": {
+        "DEIM": {
+          "condition_2": 9.4350905203954,
+          "distinct_indices": 20,
+          "experiment": "leave_one_out",
+          "inverse_norm_2": 64.1097742497171,
+          "m": 20,
+          "mass_l2_relative_error": "",
+          "max_abs_interpolation_residual": 6.039613253960852e-14,
+          "max_snapshot_relative_error": 2.1606174734367514,
+          "mean_snapshot_relative_error": 0.03996684633822181,
+          "median_snapshot_relative_error": 0.025021762854595345,
+          "method": "DEIM",
+          "min_snapshot_relative_error": 0.008400736779541234,
+          "nonsingular": true,
+          "num_sensors": 20,
+          "p95_snapshot_relative_error": 0.08960703110163624,
+          "pod_orthonormality_2_norm": 1.0737053813393833e-14,
+          "reconstruction_time_seconds": 0.007925250014523044,
+          "relative_frobenius_error": 0.028030711573860126,
+          "relative_interpolation_residual": 8.01737253187359e-17,
+          "sensor_selection_time_seconds": 0.002069709007628262
+        },
+        "POD_projection": {
+          "condition_2": "",
+          "distinct_indices": "",
+          "experiment": "leave_one_out",
+          "inverse_norm_2": "",
+          "m": 20,
+          "mass_l2_relative_error": "",
+          "max_abs_interpolation_residual": "",
+          "max_snapshot_relative_error": 1.3692478139980184,
+          "mean_snapshot_relative_error": 0.024885124709763368,
+          "median_snapshot_relative_error": 0.014494399524537129,
+          "method": "POD_projection",
+          "min_snapshot_relative_error": 0.005816752061718304,
+          "nonsingular": "",
+          "num_sensors": "",
+          "p95_snapshot_relative_error": 0.06819305180506723,
+          "pod_orthonormality_2_norm": 1.0737053813393833e-14,
+          "reconstruction_time_seconds": 0.16238612501183525,
+          "relative_frobenius_error": 0.013563829734048504,
+          "relative_interpolation_residual": "",
+          "sensor_selection_time_seconds": 0.0
+        },
+        "QDEIM": {
+          "condition_2": 6.55296230193393,
+          "distinct_indices": 20,
+          "experiment": "leave_one_out",
+          "inverse_norm_2": 45.0174925345236,
+          "m": 20,
+          "mass_l2_relative_error": "",
+          "max_abs_interpolation_residual": 5.551115123125783e-14,
+          "max_snapshot_relative_error": 2.252221059068739,
+          "mean_snapshot_relative_error": 0.03567547064429709,
+          "median_snapshot_relative_error": 0.020780707226631223,
+          "method": "QDEIM",
+          "min_snapshot_relative_error": 0.008061868802100561,
+          "nonsingular": true,
+          "num_sensors": 20,
+          "p95_snapshot_relative_error": 0.09379091981295355,
+          "pod_orthonormality_2_norm": 1.0737053813393833e-14,
+          "reconstruction_time_seconds": 0.008376042009331286,
+          "relative_frobenius_error": 0.020043651298197417,
+          "relative_interpolation_residual": 9.427709682618687e-17,
+          "sensor_selection_time_seconds": 0.007161417015595362
+        }
+      },
+      "pod_orthonormality_2_norm": 1.0737053813393833e-14
+    },
+    "200": {
+      "m": 200,
+      "methods": {
+        "DEIM": {
+          "condition_2": 106.42410153726442,
+          "distinct_indices": 200,
+          "experiment": "leave_one_out",
+          "inverse_norm_2": 228.01517377384528,
+          "m": 200,
+          "mass_l2_relative_error": "",
+          "max_abs_interpolation_residual": 3.0020430585864233e-13,
+          "max_snapshot_relative_error": 0.07660014544454233,
+          "mean_snapshot_relative_error": 0.0023870964302926266,
+          "median_snapshot_relative_error": 0.0015477713869646416,
+          "method": "DEIM",
+          "min_snapshot_relative_error": 0.0005084763528696893,
+          "nonsingular": true,
+          "num_sensors": 200,
+          "p95_snapshot_relative_error": 0.004814122424647199,
+          "pod_orthonormality_2_norm": 1.2358840628235264e-14,
+          "reconstruction_time_seconds": 0.027615917002549395,
+          "relative_frobenius_error": 0.0023679989565617877,
+          "relative_interpolation_residual": 3.126768555671683e-16,
+          "sensor_selection_time_seconds": 0.06515662500169128
+        },
+        "POD_projection": {
+          "condition_2": "",
+          "distinct_indices": "",
+          "experiment": "leave_one_out",
+          "inverse_norm_2": "",
+          "m": 200,
+          "mass_l2_relative_error": "",
+          "max_abs_interpolation_residual": "",
+          "max_snapshot_relative_error": 0.02994515667622026,
+          "mean_snapshot_relative_error": 0.000495987215172096,
+          "median_snapshot_relative_error": 0.0003043011850934733,
+          "method": "POD_projection",
+          "min_snapshot_relative_error": 0.00015363445065506444,
+          "nonsingular": "",
+          "num_sensors": "",
+          "p95_snapshot_relative_error": 0.0007737027566799627,
+          "pod_orthonormality_2_norm": 1.2358840628235264e-14,
+          "reconstruction_time_seconds": 0.039948292018380016,
+          "relative_frobenius_error": 0.0003395528726122683,
+          "relative_interpolation_residual": "",
+          "sensor_selection_time_seconds": 0.0
+        },
+        "QDEIM": {
+          "condition_2": 29.818241745259364,
+          "distinct_indices": 200,
+          "experiment": "leave_one_out",
+          "inverse_norm_2": 65.75127731647105,
+          "m": 200,
+          "mass_l2_relative_error": "",
+          "max_abs_interpolation_residual": 3.232969447708456e-13,
+          "max_snapshot_relative_error": 0.10870835960098703,
+          "mean_snapshot_relative_error": 0.001685432008661386,
+          "median_snapshot_relative_error": 0.0009161054705410288,
+          "method": "QDEIM",
+          "min_snapshot_relative_error": 0.0004258050899200749,
+          "nonsingular": true,
+          "num_sensors": 200,
+          "p95_snapshot_relative_error": 0.003204141039033188,
+          "pod_orthonormality_2_norm": 1.2358840628235264e-14,
+          "reconstruction_time_seconds": 0.017913499992573634,
+          "relative_frobenius_error": 0.0011617916864577768,
+          "relative_interpolation_residual": 3.183424272320533e-16,
+          "sensor_selection_time_seconds": 0.10102404200006276
+        }
+      },
+      "pod_orthonormality_2_norm": 1.2358840628235264e-14
+    },
+    "30": {
+      "m": 30,
+      "methods": {
+        "DEIM": {
+          "condition_2": 10.810671711336019,
+          "distinct_indices": 30,
+          "experiment": "leave_one_out",
+          "inverse_norm_2": 54.287423242336374,
+          "m": 30,
+          "mass_l2_relative_error": "",
+          "max_abs_interpolation_residual": 1.4210854715202004e-13,
+          "max_snapshot_relative_error": 1.6442325147724237,
+          "mean_snapshot_relative_error": 0.03142205601048496,
+          "median_snapshot_relative_error": 0.019151993045164704,
+          "method": "DEIM",
+          "min_snapshot_relative_error": 0.007490176048531549,
+          "nonsingular": true,
+          "num_sensors": 30,
+          "p95_snapshot_relative_error": 0.06150930824827828,
+          "pod_orthonormality_2_norm": 1.0982324165224576e-14,
+          "reconstruction_time_seconds": 0.00797979100025259,
+          "relative_frobenius_error": 0.019360508779547328,
+          "relative_interpolation_residual": 1.2874720908516151e-16,
+          "sensor_selection_time_seconds": 0.0026664579927455634
+        },
+        "POD_projection": {
+          "condition_2": "",
+          "distinct_indices": "",
+          "experiment": "leave_one_out",
+          "inverse_norm_2": "",
+          "m": 30,
+          "mass_l2_relative_error": "",
+          "max_abs_interpolation_residual": "",
+          "max_snapshot_relative_error": 0.841851099986624,
+          "mean_snapshot_relative_error": 0.016726728008377406,
+          "median_snapshot_relative_error": 0.008595219041344412,
+          "method": "POD_projection",
+          "min_snapshot_relative_error": 0.004532812552155147,
+          "nonsingular": "",
+          "num_sensors": "",
+          "p95_snapshot_relative_error": 0.04243180801403696,
+          "pod_orthonormality_2_norm": 1.0982324165224576e-14,
+          "reconstruction_time_seconds": 0.020182375010335818,
+          "relative_frobenius_error": 0.009069268025332278,
+          "relative_interpolation_residual": "",
+          "sensor_selection_time_seconds": 0.0
+        },
+        "QDEIM": {
+          "condition_2": 6.761757014602859,
+          "distinct_indices": 30,
+          "experiment": "leave_one_out",
+          "inverse_norm_2": 35.49649693803025,
+          "m": 30,
+          "mass_l2_relative_error": "",
+          "max_abs_interpolation_residual": 5.684341886080802e-14,
+          "max_snapshot_relative_error": 1.101654185139331,
+          "mean_snapshot_relative_error": 0.02457354215843964,
+          "median_snapshot_relative_error": 0.015145910108973336,
+          "method": "QDEIM",
+          "min_snapshot_relative_error": 0.006112299853794324,
+          "nonsingular": true,
+          "num_sensors": 30,
+          "p95_snapshot_relative_error": 0.05166614102250637,
+          "pod_orthonormality_2_norm": 1.0982324165224576e-14,
+          "reconstruction_time_seconds": 0.008872042002622038,
+          "relative_frobenius_error": 0.016448398451213465,
+          "relative_interpolation_residual": 1.0852695874283917e-16,
+          "sensor_selection_time_seconds": 0.008094874996459112
+        }
+      },
+      "pod_orthonormality_2_norm": 1.0982324165224576e-14
+    },
+    "40": {
+      "m": 40,
+      "methods": {
+        "DEIM": {
+          "condition_2": 11.604518687744642,
+          "distinct_indices": 40,
+          "experiment": "leave_one_out",
+          "inverse_norm_2": 55.28423894551649,
+          "m": 40,
+          "mass_l2_relative_error": "",
+          "max_abs_interpolation_residual": 2.9665159217984183e-13,
+          "max_snapshot_relative_error": 1.1730128344483997,
+          "mean_snapshot_relative_error": 0.02127469746987406,
+          "median_snapshot_relative_error": 0.012477779862456021,
+          "method": "DEIM",
+          "min_snapshot_relative_error": 0.004152728240564789,
+          "nonsingular": true,
+          "num_sensors": 40,
+          "p95_snapshot_relative_error": 0.03922209315785915,
+          "pod_orthonormality_2_norm": 1.1160000307170848e-14,
+          "reconstruction_time_seconds": 0.008975415985332802,
+          "relative_frobenius_error": 0.013272621438488199,
+          "relative_interpolation_residual": 1.487457696279297e-16,
+          "sensor_selection_time_seconds": 0.004546624986687675
+        },
+        "POD_projection": {
+          "condition_2": "",
+          "distinct_indices": "",
+          "experiment": "leave_one_out",
+          "inverse_norm_2": "",
+          "m": 40,
+          "mass_l2_relative_error": "",
+          "max_abs_interpolation_residual": "",
+          "max_snapshot_relative_error": 0.5858056092210188,
+          "mean_snapshot_relative_error": 0.0115814373678199,
+          "median_snapshot_relative_error": 0.0059326919391519736,
+          "method": "POD_projection",
+          "min_snapshot_relative_error": 0.0027276050161931485,
+          "nonsingular": "",
+          "num_sensors": "",
+          "p95_snapshot_relative_error": 0.029873322678904943,
+          "pod_orthonormality_2_norm": 1.1160000307170848e-14,
+          "reconstruction_time_seconds": 0.024628707993542776,
+          "relative_frobenius_error": 0.006332043631814899,
+          "relative_interpolation_residual": "",
+          "sensor_selection_time_seconds": 0.0
+        },
+        "QDEIM": {
+          "condition_2": 9.578934783747387,
+          "distinct_indices": 40,
+          "experiment": "leave_one_out",
+          "inverse_norm_2": 47.14436818873299,
+          "m": 40,
+          "mass_l2_relative_error": "",
+          "max_abs_interpolation_residual": 2.8421709430404007e-13,
+          "max_snapshot_relative_error": 0.7049086006988129,
+          "mean_snapshot_relative_error": 0.017905101739126798,
+          "median_snapshot_relative_error": 0.011364012285091627,
+          "method": "QDEIM",
+          "min_snapshot_relative_error": 0.0038638397857284905,
+          "nonsingular": true,
+          "num_sensors": 40,
+          "p95_snapshot_relative_error": 0.0398184910922335,
+          "pod_orthonormality_2_norm": 1.1160000307170848e-14,
+          "reconstruction_time_seconds": 0.009150541998678818,
+          "relative_frobenius_error": 0.012117595682798627,
+          "relative_interpolation_residual": 1.5564311037806123e-16,
+          "sensor_selection_time_seconds": 0.011126666999189183
+        }
+      },
+      "pod_orthonormality_2_norm": 1.1160000307170848e-14
+    },
+    "60": {
+      "m": 60,
+      "methods": {
+        "DEIM": {
+          "condition_2": 21.412716851594197,
+          "distinct_indices": 60,
+          "experiment": "leave_one_out",
+          "inverse_norm_2": 82.38807243363748,
+          "m": 60,
+          "mass_l2_relative_error": "",
+          "max_abs_interpolation_residual": 1.949551631241775e-13,
+          "max_snapshot_relative_error": 0.6078913936090745,
+          "mean_snapshot_relative_error": 0.01818477818939625,
+          "median_snapshot_relative_error": 0.009459787509777854,
+          "method": "DEIM",
+          "min_snapshot_relative_error": 0.003396446435561708,
+          "nonsingular": true,
+          "num_sensors": 60,
+          "p95_snapshot_relative_error": 0.07308920466700153,
+          "pod_orthonormality_2_norm": 1.1204779844148615e-14,
+          "reconstruction_time_seconds": 0.011928000021725893,
+          "relative_frobenius_error": 0.011099195881812268,
+          "relative_interpolation_residual": 1.6301474926751612e-16,
+          "sensor_selection_time_seconds": 0.010579624999081716
+        },
+        "POD_projection": {
+          "condition_2": "",
+          "distinct_indices": "",
+          "experiment": "leave_one_out",
+          "inverse_norm_2": "",
+          "m": 60,
+          "mass_l2_relative_error": "",
+          "max_abs_interpolation_residual": "",
+          "max_snapshot_relative_error": 0.3153097416391065,
+          "mean_snapshot_relative_error": 0.006158686398704811,
+          "median_snapshot_relative_error": 0.0033158706673212623,
+          "method": "POD_projection",
+          "min_snapshot_relative_error": 0.0018438558952467861,
+          "nonsingular": "",
+          "num_sensors": "",
+          "p95_snapshot_relative_error": 0.016403037706659997,
+          "pod_orthonormality_2_norm": 1.1204779844148615e-14,
+          "reconstruction_time_seconds": 0.024273541988804936,
+          "relative_frobenius_error": 0.0035982570480212273,
+          "relative_interpolation_residual": "",
+          "sensor_selection_time_seconds": 0.0
+        },
+        "QDEIM": {
+          "condition_2": 12.043718164951063,
+          "distinct_indices": 60,
+          "experiment": "leave_one_out",
+          "inverse_norm_2": 47.90029195905642,
+          "m": 60,
+          "mass_l2_relative_error": "",
+          "max_abs_interpolation_residual": 1.816324868286756e-13,
+          "max_snapshot_relative_error": 0.5572061695674676,
+          "mean_snapshot_relative_error": 0.0129879049963666,
+          "median_snapshot_relative_error": 0.006273829418397199,
+          "method": "QDEIM",
+          "min_snapshot_relative_error": 0.002943093310866377,
+          "nonsingular": true,
+          "num_sensors": 60,
+          "p95_snapshot_relative_error": 0.04409731274847587,
+          "pod_orthonormality_2_norm": 1.1204779844148615e-14,
+          "reconstruction_time_seconds": 0.010696415993152186,
+          "relative_frobenius_error": 0.007769828745380938,
+          "relative_interpolation_residual": 1.7649124124641754e-16,
+          "sensor_selection_time_seconds": 0.019950416986830533
+        }
+      },
+      "pod_orthonormality_2_norm": 1.1204779844148615e-14
+    },
+    "80": {
+      "m": 80,
+      "methods": {
+        "DEIM": {
+          "condition_2": 27.435674393221067,
+          "distinct_indices": 80,
+          "experiment": "leave_one_out",
+          "inverse_norm_2": 90.85752047353371,
+          "m": 80,
+          "mass_l2_relative_error": "",
+          "max_abs_interpolation_residual": 2.0472512574087887e-13,
+          "max_snapshot_relative_error": 0.3290073206013202,
+          "mean_snapshot_relative_error": 0.009825455392682725,
+          "median_snapshot_relative_error": 0.005354090554578945,
+          "method": "DEIM",
+          "min_snapshot_relative_error": 0.0019365528436335673,
+          "nonsingular": true,
+          "num_sensors": 80,
+          "p95_snapshot_relative_error": 0.030419418218416462,
+          "pod_orthonormality_2_norm": 1.1233399916588326e-14,
+          "reconstruction_time_seconds": 0.011462624999694526,
+          "relative_frobenius_error": 0.005813208959592578,
+          "relative_interpolation_residual": 1.9194057622094617e-16,
+          "sensor_selection_time_seconds": 0.015217665990348905
+        },
+        "POD_projection": {
+          "condition_2": "",
+          "distinct_indices": "",
+          "experiment": "leave_one_out",
+          "inverse_norm_2": "",
+          "m": 80,
+          "mass_l2_relative_error": "",
+          "max_abs_interpolation_residual": "",
+          "max_snapshot_relative_error": 0.19480548628821806,
+          "mean_snapshot_relative_error": 0.00366225907362379,
+          "median_snapshot_relative_error": 0.002133885631502126,
+          "method": "POD_projection",
+          "min_snapshot_relative_error": 0.0010719929520716057,
+          "nonsingular": "",
+          "num_sensors": "",
+          "p95_snapshot_relative_error": 0.008854958349701021,
+          "pod_orthonormality_2_norm": 1.1233399916588326e-14,
+          "reconstruction_time_seconds": 0.0304606250138022,
+          "relative_frobenius_error": 0.0021183166993287523,
+          "relative_interpolation_residual": "",
+          "sensor_selection_time_seconds": 0.0
+        },
+        "QDEIM": {
+          "condition_2": 17.958575657405067,
+          "distinct_indices": 80,
+          "experiment": "leave_one_out",
+          "inverse_norm_2": 56.999927895230904,
+          "m": 80,
+          "mass_l2_relative_error": "",
+          "max_abs_interpolation_residual": 2.3092638912203256e-13,
+          "max_snapshot_relative_error": 0.43557027331489606,
+          "mean_snapshot_relative_error": 0.008732860378826502,
+          "median_snapshot_relative_error": 0.004338874137018706,
+          "method": "QDEIM",
+          "min_snapshot_relative_error": 0.0020283156223119708,
+          "nonsingular": true,
+          "num_sensors": 80,
+          "p95_snapshot_relative_error": 0.02808275609380364,
+          "pod_orthonormality_2_norm": 1.1233399916588326e-14,
+          "reconstruction_time_seconds": 0.011136541987070814,
+          "relative_frobenius_error": 0.004697115723538333,
+          "relative_interpolation_residual": 2.0829800912327033e-16,
+          "sensor_selection_time_seconds": 0.01997799999662675
+        }
+      },
+      "pod_orthonormality_2_norm": 1.1233399916588326e-14
+    }
+  },
+  "no_holdout_snapshots_used": true,
+  "random_seed": 1234,
+  "randomized_pod_seconds": 2.8581435829983093,
+  "same_nested_basis_for_all_m": true,
+  "singular_values_file": "singular_values.npy",
+  "training_matrix_shape": [
+    11994,
+    12000
+  ],
+  "training_u_values": [
+    0.7,
+    0.71,
+    0.72,
+    0.73,
+    0.74,
+    0.75,
+    0.76,
+    0.77,
+    0.78,
+    0.79,
+    0.7999999999999999,
+    0.8099999999999999,
+    0.82,
+    0.83,
+    0.84,
+    0.86,
+    0.87,
+    0.88,
+    0.89,
+    0.9,
+    0.91,
+    0.9199999999999999,
+    0.9299999999999999,
+    0.94,
+    0.95,
+    0.96,
+    0.97,
+    0.98,
+    0.99,
+    1.0
+  ]
+}

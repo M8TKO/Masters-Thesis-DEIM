@@ -1,0 +1,7 @@
+*.pdf binary
+*.png binary
+*.jpg binary
+*.mp4 binary
+*.webm binary
+docs/slides/* linguist-generated=true
+docs/media/* linguist-generated=true

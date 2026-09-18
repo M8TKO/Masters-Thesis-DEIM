@@ -1,0 +1,10 @@
+{
+  "centered_training_matrix_frobenius_norm_squared": 5995414593.043233,
+  "computed_singular_value_energy_fraction": 0.9999991055467542,
+  "denominator": "exact_centered_training_matrix_frobenius_norm_squared",
+  "last_cumulative_energy_value": 0.9999991055467539,
+  "training_matrix_shape": [
+    11994,
+    12000
+  ]
+}

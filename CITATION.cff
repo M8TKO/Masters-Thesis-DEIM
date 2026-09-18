@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the thesis below."
+title: "Code and supplementary material for Discrete Empirical Interpolation Method"
+type: software
+authors:
+  - family-names: "Petričić"
+    given-names: "Matko"
+repository-code: "https://github.com/M8TKO/Masters-Thesis-DEIM"
+url: "https://repozitorij.pmf.unizg.hr/object/pmf:15584"
+date-released: 2026-09-18
+preferred-citation:
+  type: thesis
+  title: "Discrete Empirical Interpolation Method"
+  authors:
+    - family-names: "Petričić"
+      given-names: "Matko"
+  institution:
+    name: "University of Zagreb, Faculty of Science, Department of Mathematics"
+  year: 2026
+  url: "https://repozitorij.pmf.unizg.hr/object/pmf:15584"

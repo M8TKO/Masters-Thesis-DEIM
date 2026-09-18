@@ -1,0 +1,22 @@
+{
+  "figure": "external_validation_vorticity_wake_contrast",
+  "modes": [
+    80,
+    100,
+    120,
+    150
+  ],
+  "scale": "symmetric_vorticity_scale_from_wake_region_99_5_percentile",
+  "times": [
+    5.9999999999999165,
+    7.999999999999874
+  ],
+  "vorticity_limit": 33.79092907125833,
+  "wake_region": {
+    "minimum_distance_from_cylinder_center": 0.075,
+    "x_max": 1.45,
+    "x_min": 0.25,
+    "y_max": 0.36,
+    "y_min": 0.04
+  }
+}

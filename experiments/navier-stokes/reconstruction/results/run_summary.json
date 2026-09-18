@@ -1,0 +1,52 @@
+{
+  "external_validation": {
+    "external_u": 0.855,
+    "methods": {
+      "DEIM": {
+        "condition_2": 42.95508480220198,
+        "distinct_indices": 150,
+        "inverse_norm_2": 103.92527615000819,
+        "m": 150,
+        "max_abs_interpolation_residual": 2.6290081223123707e-13,
+        "max_snapshot_relative_error": 0.2808667188986367,
+        "mean_snapshot_relative_error": 0.029797438152081544,
+        "median_snapshot_relative_error": 0.026825051708250884,
+        "min_snapshot_relative_error": 0.022468070802764497,
+        "nonsingular": true,
+        "num_sensors": 150,
+        "p95_snapshot_relative_error": 0.0325440723444362,
+        "reconstruction_time_seconds": 0.013656291994266212,
+        "relative_frobenius_error": 0.027468343765758237,
+        "relative_interpolation_residual": 2.717142181736486e-16,
+        "sensor_selection_time_seconds": 0.03015712500200607
+      },
+      "QDEIM": {
+        "condition_2": 32.374721926353295,
+        "distinct_indices": 150,
+        "inverse_norm_2": 84.66427759065719,
+        "m": 150,
+        "max_abs_interpolation_residual": 2.149391775674303e-13,
+        "max_snapshot_relative_error": 0.19076761217719418,
+        "mean_snapshot_relative_error": 0.028302101795481916,
+        "median_snapshot_relative_error": 0.027701212984178374,
+        "min_snapshot_relative_error": 0.02036417034893048,
+        "nonsingular": true,
+        "num_sensors": 150,
+        "p95_snapshot_relative_error": 0.029272829405221832,
+        "reconstruction_time_seconds": 0.01384458297980018,
+        "relative_frobenius_error": 0.02752264407751734,
+        "relative_interpolation_residual": 2.5663543130915436e-16,
+        "sensor_selection_time_seconds": 0.054578374983975664
+      }
+    },
+    "selected_m": 150
+  },
+  "mode_sweep": {
+    "holdout_u": 0.85,
+    "training_matrix_shape": [
+      11994,
+      12000
+    ]
+  },
+  "total_runtime_seconds": 20.545558207988506
+}
